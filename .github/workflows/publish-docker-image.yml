@@ -22,10 +22,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
-        submodules: 'true'
+        uses: actions/checkout@v3        
         with:
           repository: PowerNukkitX/PowerNukkitX
+          submodules: 'true'
 
       # Login against a Docker registry except on PR
       # https://github.com/docker/login-action
