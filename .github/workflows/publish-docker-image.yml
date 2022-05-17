@@ -65,7 +65,7 @@ jobs:
 
 
 
-  build docker-image:
+  build-docker-image:
     needs: [build-server]
     name: 构建Docker镜像
     runs-on: ubuntu-latest
